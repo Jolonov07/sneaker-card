@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from './Header.module.css'
-import ShopCart from '../shared/ShopCart/ShopCart'
+import ShopCart from '../Shared/ShopCart/ShopCart'
 import { useAppSelector } from '../../store'
 import { ICart } from '../../model/shopCart'
 

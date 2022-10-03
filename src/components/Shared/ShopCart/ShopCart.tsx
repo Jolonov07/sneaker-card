@@ -1,8 +1,8 @@
-import React from 'react';
-import styles from './ShopCart.module.css';
+import React from 'react'
+import styles from './ShopCart.module.css'
 
 interface IShopCart {
-  count: number;
+  count: number
 }
 
 function ShopCart({ count }: IShopCart) {
@@ -16,7 +16,7 @@ function ShopCart({ count }: IShopCart) {
       </svg>
       {Boolean(count) && <div className={styles.count}>{count}</div>}
     </button>
-  );
+  )
 }
 
-export default ShopCart;
+export default ShopCart

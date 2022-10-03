@@ -1,10 +1,10 @@
-import React from 'react';
-import styles from './PreviewImg.module.css';
+import React from 'react'
+import styles from './PreviewImg.module.css'
 
 interface PreviewImgProps {
-  imgLink: any;
-  modifier?: string;
-  onClick?: () => void;
+  imgLink: any
+  modifier?: string
+  onClick?: () => void
 }
 
 function PreviewImg({ imgLink, onClick, modifier = '' }: PreviewImgProps) {
@@ -15,7 +15,7 @@ function PreviewImg({ imgLink, onClick, modifier = '' }: PreviewImgProps) {
         <img className={styles.img} src={imgLink} alt='sneaker' />
       </div>
     </div>
-  );
+  )
 }
 
-export default PreviewImg;
+export default PreviewImg

@@ -1,7 +1,7 @@
 import React from 'react'
 import { useSearchParams } from 'react-router-dom'
 import styles from './Slider.module.css'
-import PreviewImg from '../shared/PreviewImg/PreviewImg'
+import PreviewImg from '../Shared/PreviewImg/PreviewImg'
 import { RootState, useAppSelector } from '../../store'
 
 function Slider() {

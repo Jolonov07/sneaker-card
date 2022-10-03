@@ -1,19 +1,19 @@
-import React from 'react';
-import { useSearchParams } from 'react-router-dom';
-import styles from './SelectColor.module.css';
-import { useAppSelector } from '../../../store';
-import { IProduct } from '../../../model/product';
+import React from 'react'
+import { useSearchParams } from 'react-router-dom'
+import styles from './SelectColor.module.css'
+import { useAppSelector } from '../../../store'
+import { IProduct } from '../../../model/product'
 
 function SelectColor() {
-  const { variation }: IProduct = useAppSelector((state) => state.product.product);
+  const { variation }: IProduct = useAppSelector((state) => state.product.product)
 
-  const [searchParams, setSearchParams] = useSearchParams();
+  const [searchParams, setSearchParams] = useSearchParams()
 
-  const article = searchParams.get('article') || '';
+  const article = searchParams.get('article') || ''
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
-    setSearchParams({ article: e.target.value });
-  };
+    setSearchParams({ article: e.target.value })
+  }
 
   return (
     <div className={styles.root}>
@@ -33,7 +33,7 @@ function SelectColor() {
         </label>
       ))}
     </div>
-  );
+  )
 }
 
-export default SelectColor;
+export default SelectColor

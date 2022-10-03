@@ -1,10 +1,10 @@
-import React from 'react';
-import styles from './QuantityButton.module.css';
+import React from 'react'
+import styles from './QuantityButton.module.css'
 
 interface IQuantityButton {
-  handleAdding: () => void;
-  handleDecrease: () => void;
-  count: number;
+  handleAdding: () => void
+  handleDecrease: () => void
+  count: number
 }
 
 function QuantityButton({ handleAdding, handleDecrease, count }: IQuantityButton) {
@@ -18,7 +18,7 @@ function QuantityButton({ handleAdding, handleDecrease, count }: IQuantityButton
         +
       </button>
     </div>
-  );
+  )
 }
 
-export default QuantityButton;
+export default QuantityButton

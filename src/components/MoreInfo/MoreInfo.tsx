@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import styles from './MoreInfo.module.css';
-import UnderlineButton from '../shared/UnderlineButton/UnderlineButton';
+import UnderlineButton from '../Shared/UnderlineButton/UnderlineButton';
 import Characteristics from './Characteristics/Characteristics';
 import { RootState, useAppSelector } from '../../store';
 import Description from './Description/Description';

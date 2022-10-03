@@ -1,8 +1,8 @@
 import React from 'react'
 import { useSearchParams } from 'react-router-dom'
 import styles from './BuyButtons.module.css'
-import QuantityButton from '../shared/QuantityButton/QuantityButton'
-import UnderlineButton from '../shared/UnderlineButton/UnderlineButton'
+import QuantityButton from '../Shared/QuantityButton/QuantityButton'
+import UnderlineButton from '../Shared/UnderlineButton/UnderlineButton'
 import { useAppDispatch, useAppSelector } from '../../store'
 import { addToCart, decreaseCount, increaseCount } from '../../store/slices/shopCartSlice'
 
