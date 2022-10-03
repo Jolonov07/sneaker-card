@@ -1,0 +1,21 @@
+.root {
+  padding: 0 5px;
+  font-family: 'Inter', serif;
+  border-bottom: 1px solid #000;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  -webkit-appearance: none;
+}
+
+.root svg {
+  position: relative;
+  top: 2px;
+  margin-right: 5px;
+}
+
+.root:hover {
+  opacity: 0.65;
+}

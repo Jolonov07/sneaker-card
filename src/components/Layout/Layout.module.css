@@ -1,0 +1,16 @@
+.root {
+  margin: 40px auto 0;
+  background-color: #fff;
+  /*min-width: 420px;*/
+  max-width: 837px;
+  border-radius: 22px;
+  padding: 32px 48px 22px;
+  box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(136, 165, 191, 0.48) -6px -2px 16px 0px;
+}
+
+@media screen and (max-width: 877px) {
+  .root {
+    padding: 32px 20px 22px;
+    margin: 40px 20px;
+  }
+}

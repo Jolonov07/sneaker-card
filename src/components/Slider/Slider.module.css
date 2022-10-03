@@ -1,0 +1,41 @@
+.root {
+  padding: 0 29px;
+  display: flex;
+  max-height: 80px;
+  justify-content: space-between;
+  column-gap: 15px;
+}
+
+.previewImg {
+  width: 80px;
+  transition: border ease-in-out 0.1s;
+  cursor: pointer;
+}
+
+.previewImg:hover {
+  border: 1px solid #000;
+}
+
+@media screen and (max-width: 780px) {
+  .root {
+    padding: 20px 0;
+    margin: 0 20px;
+    flex-direction: column;
+    max-height: 293px;
+    max-width: 80px;
+    flex: auto;
+    row-gap: 20px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .root {
+    padding: 0 29px;
+    margin: 0;
+    max-height: 80px;
+    flex-direction: row;
+    max-width: max-content;
+    justify-content: space-between;
+    column-gap: 15px;
+  }
+}
